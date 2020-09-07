@@ -2,24 +2,27 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Holiday;
 use Illuminate\Http\Request;
 
 class CalendarController extends Controller
 {
-    private $service;
-
-    public function __construct(CalendarService $service)
+    public function getHoliday(Request $request)
     {
-        $this->service = $service;
+      // 休日データ取得
+      $list = Holiday::all();
+      return view('calendar.holiday', ['list' => $list]);        
     }
-
-    public function index()
+    public function postHoliday(Request $request)
     {
-        return view('calendar', [
-            'weeks'         => Calendar::getWeeks(),
-            'month'         => Calendar::getMonth(),
-            'prev'          => Calendar::getPrev(),
-            'next'          => Calendar::getNext(),
-        ]);
+        // POSTで受信した休日データの登録
+      $holiday = new Holiday(); 
+      $holiday->day = $request->day;
+      $holiday->description = $request->description;        
+      $holiday->save();
+      // 休日データ取得
+      $list = Holiday::all();
+      return view('calendar.holiday', ['list' => $list]);
     }
 }

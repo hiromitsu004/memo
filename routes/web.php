@@ -28,7 +28,7 @@ Route::get('/delete', 'MemosController@delete')->name('delete');
 Auth::routes();
 
 Route::get('/index', 'HomeController@index')->name('home');
-Route::get('/calendar', function () {
-  return view('calendar');
-});
+
+Route::get('/holiday', 'CalendarController@getHoliday');
+Route::post('/holiday', 'CalendarController@postHoliday');
 
