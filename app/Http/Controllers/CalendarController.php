@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Calendar;
+
+
 use App\Holiday;
 use Illuminate\Http\Request;
 
@@ -71,6 +74,6 @@ $validatedData = $request->validate([
 	$data = new Holiday();
         $list = Holiday::all();
         return view('calendar.holiday', ['list' => $list, 'data' => $data]);
-    }
 
+    }
 }
