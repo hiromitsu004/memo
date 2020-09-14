@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-
+<div class="container">
   <div class="text-black-50 text-left border-bottom ">
-    <h1>MEMO</h1>
+    <h1 class="">MEMO</h1>
     <div class="text-right">
       <a href="{{ route('create') }}" class="btn btn-outline-secondary btn-sm mt-1">メモを作成</a>
     </div>
@@ -36,5 +36,6 @@
 
       </div>
   </div>
+</div>
 
 @endsection

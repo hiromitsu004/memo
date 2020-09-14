@@ -34,9 +34,9 @@ class Calendar
         $day = 1 - $firstWeekDay;
         $this->html = <<< EOS
     <h2>
-    <a class="btn btn-primary" href="/?year={$prev_year}&month={$prev_month}" role="button">&lt;前月</a>
+    <a class="btn btn-primary" href="?year={$prev_year}&month={$prev_month}" role="button">&lt;前月</a>
     {$year}年{$month}月
-    <a class="btn btn-primary" href="/?year={$next_year}&month={$next_month}" role="button">翌月&gt;</a>
+    <a class="btn btn-primary" href="?year={$next_year}&month={$next_month}" role="button">翌月&gt;</a>
     </h2>
     <table class="table table-bordered" style="table-layout:fixed;">
     <tr>
@@ -58,7 +58,7 @@ class Calendar
                     // 先月・来月の日付の場合
                     $this->html .= "<td>&nbsp;</td>";
                 } else {
-                   $this->html .= "<td>" . $day ."&nbsp"; 
+                   $this->html .= "<td>" . $day ."<br></br>"; 
                    $target = date("Y-m-d", mktime(0, 0, 0, $month, $day, $year)); 
                    foreach($this->holidays as $val) {
                         if ($val->day == $target) {

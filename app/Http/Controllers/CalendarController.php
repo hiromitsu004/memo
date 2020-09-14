@@ -41,8 +41,8 @@ class CalendarController extends Controller
     {
         // DELETEで受信した休日データの削除
 	if (isset($request->id)) {
-            $holiday = Holiday::where('id', '=', $request->id)->first();
-            $holiday->delete();
+        $holiday = Holiday::where('id', '=', $request->id)->first();
+        $holiday->delete();
 
 	}
         // 休日データ取得
