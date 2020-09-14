@@ -9,14 +9,13 @@
 
     <title>{{ config('app.name', 'Memo') }}</title>
 
-    <!-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/css/avantui.css"> -->
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -24,7 +23,7 @@
 
     
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-    <script src="assets/js/avantui.js"></script> -->
+    <script src="assets/js/avantui.js"></script>
 
     <link href="{{asset('/assets/css/app.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/calendar.css">
@@ -47,8 +46,8 @@
                 </button>
             
                 <a class="icon" href="/calendar/index"><i class="fas fa-calendar fa-2x"></i></a>
-                <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-8 down-3" style="font-weight:900">27</span>
-                </span>
+                  <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-8 down-3" style="font-weight:900">27</span>
+                  </span>
                 <a class="icon" href="/"><i class="fas fa-clipboard-list fa-2x"></i></a>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
