@@ -28,6 +28,7 @@
     <link href="{{asset('/assets/css/app.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/calendar.css">
     <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

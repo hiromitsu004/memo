@@ -15,7 +15,9 @@ use App\Memo;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/index', 'HomeController@index')->name('home');
+Auth::routes();
+Route::group(['middleware' => ['auth']], function(){
 Route::get('/', 'MemosController@index')->name('index');
 
 Route::get('/create', 'MemosController@create')->name('create');
@@ -25,12 +27,10 @@ Route::get('/edit', 'MemosController@edit')->name('edit');
 Route::post('/update', 'MemosController@update')->name('update');
 
 Route::get('/delete', 'MemosController@delete')->name('delete');
-Auth::routes();
-
-Route::get('/index', 'HomeController@index')->name('home');
 
 Route::get('/calendar/index', 'CalendarController@index');
 Route::get('/holiday', 'CalendarController@getHoliday');
 Route::post('/holiday', 'CalendarController@postHoliday');
 Route::get('/holiday/{id}','CalendarController@getHolidayId');
 Route::delete('/holiday','CalendarController@deleteHoliday');
+});
