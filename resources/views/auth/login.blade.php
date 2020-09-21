@@ -2,6 +2,7 @@
 
 @section('content')
   <div class="container">
+  
     <h2 class="title">ログイン</h2>
     <div class="text-center">
     </div>
@@ -24,11 +25,7 @@
             </span>
         @endif
 
-        <input type="submit" name="commit" value="ログインする" class="loginBtn btn btn-secondary" data-disable-with="ログインする">
-       
-        <p class="btn btn-dark"><a href="{{ route('register') }}">アカウントを作成</a></p>
-
-
+      <input type="submit" name="commit" value="ログインする" class="loginBtn btn btn-secondary" data-disable-with="ログインする"></input>
       </div>
     </form>
   </div>

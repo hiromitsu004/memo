@@ -19,6 +19,7 @@ Route::get('/index', 'HomeController@index')->name('home');
 Auth::routes();
 Route::group(['middleware' => ['auth']], function(){
 Route::get('/', 'MemosController@index')->name('index');
+Route::post('/', 'MemosController@postindex')->name('postindex');
 
 Route::get('/create', 'MemosController@create')->name('create');
 Route::post('/store', 'MemosController@store')->name('store');

@@ -30,21 +30,23 @@
         <th scope="col">説明</th>
         <th scope="col">作成日</th>
         <th scope="col">更新日</th>
+        <th scope="col">編集</th>
         <th scope="col">削除</th>
       </tr>
       </thead>
       <tbody>
       @foreach($list as $val)
       <tr>
-        <th scope="row"><a href="{{ url('/holiday/'.$val->id) }}">{{$val->day}}</a></th>
+        <th scope="row"><a class="text-dark" href="{{ url('/holiday/'.$val->id) }}">{{$val->day}}</a></th>
           <td>{{$val->description}}</td>
         <td>{{$val->created_at}}</td>
           <td>{{$val->updated_at}}</td>
+          <th scope="row"><a class="btn btn-info" href="{{ url('/holiday/'.$val->id) }}">編集</a></th>
           <td><form action="/holiday" method="post">
   {{csrf_field()}} 
               <input type="hidden" name="id" value="{{$val->id}}">
               {{ method_field('delete') }}
-              <button class="btn btn-default" type="submit">Delete</button>
+              <button class="btn btn-danger" type="submit">Delete</button>
           </form></td>
       </tr>
       @endforeach

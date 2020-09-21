@@ -39,18 +39,18 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
             <div class="container">
     
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             
-                <a class="icon" href="/calendar/index"><i class="fas fa-calendar fa-2x"></i></a>
-                  <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-8 down-3" style="font-weight:900">27</span>
-                  </span>
-                <a class="icon" href="/"><i class="fas fa-clipboard-list fa-2x"></i></a>
+                <a class="icon pr-2 text-secondary" href="/calendar/index"><i class="fas fa-calendar fa-2x"></i></a>
+                <a class="icon text-secondary" href="/"><i class="fas fa-clipboard-list fa-2x"></i></a>
+                
 
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                   <ul class="navbar-nav mr-auto">
@@ -64,16 +64,16 @@
                       <!-- Authentication Links -->
                       @guest
                           <li class="nav-item">
-                              <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                              <a class="nav-link text-secondary" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                           </li>
                           @if (Route::has('register'))
                               <li class="nav-item">
-                                  <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                  <a class="nav-link text-secondary " href="{{ route('register') }}">{{ __('新規登録') }}</a>
                               </li>
                           @endif
                       @else
                           <li class="nav-item dropdown">
-                              <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                              <a id="navbarDropdown" class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                   {{ Auth::user()->name }}
                               </a>
 

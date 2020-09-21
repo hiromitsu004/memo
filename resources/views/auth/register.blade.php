@@ -39,10 +39,7 @@
           <label for="user_password_confirmation">パスワード確認</label>
           <input class="form-control" placeholder="パスワードを再度入力してください" autocomplete="off" type="password" name="password_confirmation" required>
         </div>
-        <div class="text-center">
-          <input type="submit" name="commit" value="アカウントを作成" class="btn submitBtn btn btn-secondary" data-disable-with="アカウントを作成">
-        </div>
-        <p class="btn btn-dark"><a href="{{ route('login') }}">アカウントにサインイン</a></p>
+      <input type="submit" name="commit" value="アカウントを作成" class="btn submitBtn btn btn-secondary" data-disable-with="アカウントを作成"></input>
       </div>
     </form>
   </div>

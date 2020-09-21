@@ -10,11 +10,18 @@ class MemosController extends Controller
 {
     public function index(){
         $memos = Memo::orderBy('created_at', 'desc')->get();
+
         return view ('index', ['memos'=> $memos]);
     }
 
+    public function postindex(){
+      $memo = Memo::find($request->id);
+      return view('index', ['memos' => $memos]);
+    }
+
+
     public function create(){
-        return view ('create');
+        return view ('create'); 
     }
 
     public function store(Request $request){

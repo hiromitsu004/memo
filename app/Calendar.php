@@ -34,7 +34,7 @@ class Calendar
         $day = 1 - $firstWeekDay;
         $this->html = <<< EOS
     <h2>
-    <a class="btn btn-primary" href="?year={$prev_year}&month={$prev_month}" role="button">&lt;前月</a>
+    <a class="btn btn-danger" href="?year={$prev_year}&month={$prev_month}" role="button">&lt;前月</a>
     {$year}年{$month}月
     <a class="btn btn-primary" href="?year={$next_year}&month={$next_month}" role="button">翌月&gt;</a>
     </h2>
