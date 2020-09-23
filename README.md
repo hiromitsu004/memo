@@ -59,3 +59,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+<h2 align="center">MemoCal</h2>
+
+<p align="center">
+  <a href="vue公式サイトURL"></a>
+  <br>
+</p>
+
+<div class="kongo">
+・他のユーザーも予定を管理出来るように実装する
+・バリテーションの設定を行い、他のユーザーの予定を編集出来ないようにする
+・indexページ、カレンダーページ、スケジュール設定ページにJavaScriptの非同期通信の実装
+・headerのドロップバーに、マイページ実装

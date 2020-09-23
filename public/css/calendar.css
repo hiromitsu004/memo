@@ -1,0 +1,22 @@
+
+
+.table-bordered {
+  height: 500px;
+}
+th{
+  text-align: center;
+  font-weight: bold;
+}
+
+tr {
+  text-align: center;
+}
+
+.table tr th:nth-of-type(1) {
+  color: palevioletred;
+}
+.table tr th:nth-of-type(7) {
+  color: blue;
+}
+
+
