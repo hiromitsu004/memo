@@ -19,16 +19,18 @@
 
           <div class="card">
 
-            <div class="card-body">
+            <div class="card-body bg-warning">
               <p class="text-black-50"> {{ $memo->content }} </p>
             </div>
             
-            <div class="card-footer text-right">
-              <a href="{{ route('edit', ['id'=>$memo->id])}}" class="text-info">編集</a>
-              <a href="{{ route('delete', ['id'=>$memo->id])}}" class="text-danger">削除</a>
+            <div class="card-footer text-right bg-white">
+              <a href="{{ route('edit', ['id'=>$memo->id])}}" class="btn btn-info">編集</a>
+              <a href="{{ route('delete', ['id'=>$memo->id])}}" class="btn btn-danger">削除</a>
               <div class="text-left text-dark">進捗状況
                 <form action="/" method="post">
-              　<input type="range" id="range" min="0" max="10" step="1" value="5">
+                <div class="value">0</div>
+                  <input type="range" min="0" max="10" step="1" value="0">
+               
               </div>
             </div>
           </div>

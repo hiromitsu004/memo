@@ -5,9 +5,7 @@
 .dropdown-item {
   font-size: 12px;
 }
-.icon {
-  color: rgba(255,255,255,.5);
-}
+
 .fa-inverse{
   position: relative;
   right: 15px;

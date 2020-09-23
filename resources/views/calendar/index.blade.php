@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
    {!!$cal_tag!!}
-  <a class="btn btn-success"href="{{ url('/holiday') }}">休日設定</a>
+  <a class="btn btn-success"href="{{ url('/holiday') }}">スケジュール設定</a>
 </div>
 @endsection
 

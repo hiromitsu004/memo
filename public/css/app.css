@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
-
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -2129,8 +2128,7 @@ pre code {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-
+}
 
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -10905,9 +10903,6 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
- 
-
 
 /*!
  * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com

@@ -15,8 +15,24 @@ class MemosController extends Controller
     }
 
     public function postindex(){
-      $memo = Memo::find($request->id);
-      return view('index', ['memos' => $memos]);
+      
+
+
+      if (isset($request->id)) {
+        // $memos = Memo::where('id', '=', $request->id)->first();
+        $data = Request::all();
+        $memos = $request;
+        $memos->description = $request->description;        
+        $memos->save();
+
+    } else {
+    $memos = new Memo(); 
+    $memos->id = $request;
+    $memos->description = $request->description;        
+    $memos->save();
+    }
+      // $memo = Memo::find($request->id);
+      // return view('index', ['memos' => $memos]);
     }
 
 
