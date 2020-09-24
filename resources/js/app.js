@@ -5,7 +5,7 @@
  */
 require('./calendar');
 require('./bootstrap');
-require('./index');
+require('../../public/js/index');
 
 /**
  * Next, we will create a fresh React component instance and attach it to

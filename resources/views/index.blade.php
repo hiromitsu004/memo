@@ -29,7 +29,9 @@
               <div class="text-left text-dark">進捗状況
                 <form action="/" method="post">
                 <div class="value">0</div>
-                  <input type="range" min="0" max="10" step="1" value="0">
+                  <script src="js/index.js"></script>
+                  <input type="range" min="0" max="100" step="1" value="0">
+                  
                
               </div>
             </div>

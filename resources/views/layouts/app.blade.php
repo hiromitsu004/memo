@@ -25,7 +25,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
     <script src="{{ asset('/js/index.js') }}"></script>
 
-    <link href="{{asset('/assets/css/app.css')}}" rel="stylesheet">
+    <!-- <link href="{{asset('/assets/css/app.css')}}" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="/css/calendar.css">
     <link rel="stylesheet" type="text/css" href="/css/layout.css">
     <link rel="stylesheet" type="text/css" href="/css/register.css">

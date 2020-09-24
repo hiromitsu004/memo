@@ -38,7 +38,7 @@ class Calendar
     {$year}年{$month}月
     <a class="btn btn-primary" href="?year={$next_year}&month={$next_month}" role="button">翌月&gt;</a>
     </h2>
-    <table class="table table-bordered" style="table-layout:fixed;">
+    <table class="table table-bordered bg-white" style="table-layout:fixed;">
     <tr>
     <th scope="col">日</th>
     <th scope="col">月</th>

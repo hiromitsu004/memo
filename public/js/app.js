@@ -81,7 +81,6 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-return __webpack_require__(__webpack_require__.s = 1);
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
@@ -34366,30 +34365,7 @@ return jQuery;
 }.call(this));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
-/***/ }),
 
-/***/ "./node_modules/object-assign/index.js":
-/*!*********************************************!*\
-  !*** ./node_modules/object-assign/index.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-  "use strict";
-  /*
-  object-assign
-  (c) Sindre Sorhus
-  @license MIT
-  */
-  
-  
-  /* eslint-disable no-unused-vars */
-  var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-  var hasOwnProperty = Object.prototype.hasOwnProperty;
-  var propIsEnumerable = Object.prototype.propertyIsEnumerable;
-  
-  function toObject(val) {
-    if (val === null || val === undefined) {
 /***/ }),
 
 /***/ "./node_modules/popper.js/dist/esm/popper.js":
