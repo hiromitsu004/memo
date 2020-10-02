@@ -63,12 +63,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 <h2 align="center">MemoCal</h2>
 
 <p align="center">
-  <a href="vue公式サイトURL"></a>
+  <a href="https://git.heroku.com/memocal.git">Memocal</a>
   <br>
 </p>
-
-<div class="kongo">
-・他のユーザーも予定を管理出来るように実装する</br>
-・バリテーションの設定を行い、他のユーザーの予定を編集出来ないようにする</br>
-・indexページ、カレンダーページ、スケジュール設定ページにJavaScriptの非同期通信の実装</br>
-・headerのドロップバーに、マイページ実装</br>
+<div class="subtitle">
+  ■今後の実装
+  <div class="kongo">
+  ・他のユーザーも予定を管理出来るように実装する</br>
+  ・バリテーションの設定を行い、他のユーザーの予定を編集出来ないようにする</br>
+  ・indexページ、カレンダーページ、スケジュール設定ページにJavaScriptの非同期通信の実装</br>
+  ・headerのドロップバーに、マイページ実装</br>
+</div>
