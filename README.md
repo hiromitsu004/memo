@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<!-- <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -58,7 +58,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 
 <h2 align="center">MemoCal</h2>
 
@@ -68,7 +68,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 </p>
 
 <div class="kongo">
-・他のユーザーも予定を管理出来るように実装する
-・バリテーションの設定を行い、他のユーザーの予定を編集出来ないようにする
-・indexページ、カレンダーページ、スケジュール設定ページにJavaScriptの非同期通信の実装
-・headerのドロップバーに、マイページ実装
+・他のユーザーも予定を管理出来るように実装する</br>
+・バリテーションの設定を行い、他のユーザーの予定を編集出来ないようにする</br>
+・indexページ、カレンダーページ、スケジュール設定ページにJavaScriptの非同期通信の実装</br>
+・headerのドロップバーに、マイページ実装</br>
