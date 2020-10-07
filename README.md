@@ -71,28 +71,31 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   <img src="https://i.gyazo.com/ff9964576ceec9cc8151e38690f91c23.png">
 </ul>
 
-<ul class="gengo">主な言語紹介
+<ul class="gengo">
+  ■主な言語紹介
   <li>php</li>
   <li>laravel</li>
   <li>PhpMyadmin</li>
   <li>heroku</li>
 </ul>
 
-<ul class="kinou">機能紹介
+<ul class="kinou">
+  ■機能紹介
   <li>新規会員登録・ログインをするとメモやスケジュール情報が入力できます</li>
   <li>ログインができていないと、メモやスケジュールを入力することができません</li>
   <li>ヘッダーの左にアイコンが2つクリックできます。（メモ、カレンダー）</li>
 </ul>
 
-<p class="center">
-  <a href="https://memocal.herokuapp.com">Memocal</a>
-  <br>
-</p>
-<div class="subtitle">
+<ul class="subtitle">
   ■今後の実装
   <div class="kongo">
   ・他のユーザーも予定を管理出来るように実装する</br>
   ・バリテーションの設定を行い、他のユーザーの予定を編集出来ないようにする</br>
   ・indexページ、カレンダーページ、スケジュール設定ページにJavaScriptの非同期通信の実装</br>
   ・headerのドロップバーに、マイページ実装</br>
-</div>
+</ul>
+
+<p class="center">
+  <a href="https://memocal.herokuapp.com">Memocal（本番環境URL）</a>
+  <br>
+</p>
