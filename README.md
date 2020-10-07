@@ -60,10 +60,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 
-<h2 align="center">MemoCal</h2>
+<h2 class="center">MemoCal</h2>
 
-<p align="center">
-  <a href="https://git.heroku.com/memocal.git">Memocal</a>
+<ul class="mokuteki">
+  <li>スケジュール、タスク管理を行うためのアプリです</li>
+  <li>作成期間2020年9月14日から2020年9月30日</li>
+  <img src="https://i.gyazo.com/4cfd5780232aaa29da105f28312cb1b3.png">
+</ul>
+
+<ul class="gengo">主な言語紹介
+  <li>php</li>
+  <li>laravel</li>
+  <li>PhpMyadmin</li>
+  <li>heroku</li>
+</ul>
+
+<ul class="kinou">機能紹介
+  <li>新規会員登録・ログインをするとメモやスケジュール情報が入力できます</li>
+  <li>ログインができていないと、メモやスケジュールを入力することができません</li>
+  <li>ヘッダーの左にアイコンが2つクリックできます。（メモ、カレンダー）</li>
+</ul>
+
+<p class="center">
+  <a href="https://memocal.herokuapp.com">Memocal</a>
   <br>
 </p>
 <div class="subtitle">
